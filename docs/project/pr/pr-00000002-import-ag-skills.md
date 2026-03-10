@@ -141,7 +141,7 @@ rm -rf .skills/ssurgo-soil .skills/nasa-power-weather .skills/cdl-cropland \
 
 ### Source
 
-Skills imported from: https://github.com/borealBytes/ag-skills/tree/skills-content
+Skills imported from: <https://github.com/borealBytes/ag-skills/tree/skills-content>
 
 ### Follow-up items
 
