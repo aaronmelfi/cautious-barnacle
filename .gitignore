@@ -125,3 +125,17 @@ test-results/
 .cache/
 tmp/
 temp/
+
+# ===========================
+# Skill data outputs (never commit)
+# ===========================
+.skills/*/data/
+*.geojson
+*.tif
+*.nc
+*.csv
+*.png
+*.jpg
+*.pdf
+!examples/*
+!examples/**/*

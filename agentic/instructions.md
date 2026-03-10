@@ -143,6 +143,50 @@ See [file_organization.md](file_organization.md) for the complete directory map.
 
 ---
 
+## 🌾 Agricultural Data Analysis Skills
+
+This repo includes agricultural data analysis skills in `.skills/`:
+
+### Data Download Skills
+
+| Skill                 | Description                                         |
+| --------------------- | --------------------------------------------------- |
+| `field-boundaries`    | USDA NASS Crop Sequence Boundaries (required first) |
+| `ssurgo-soil`         | USDA NRCS SSURGO soil data                          |
+| `nasa-power-weather`  | NASA POWER weather data                             |
+| `cdl-cropland`        | USDA NASS Cropland Data Layer                       |
+| `sentinel2-imagery`   | ESA Sentinel-2 satellite imagery                    |
+| `landsat-imagery`     | USGS Landsat satellite imagery                      |
+| `interactive-web-map` | Interactive web map visualization                   |
+
+### Exploratory Data Analysis Skills
+
+| Skill             | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| `eda-explore`     | Explore and summarize data with pandas            |
+| `eda-visualize`   | Create visualizations (histograms, scatter plots) |
+| `eda-correlate`   | Calculate correlation matrices                    |
+| `eda-time-series` | Analyze temporal trends                           |
+| `eda-compare`     | Statistical group comparisons                     |
+
+### Usage
+
+Each skill includes:
+
+- `SKILL.md` - Full documentation
+- `examples/` - Sample data (committed)
+- `src/` - Python modules (data skills)
+- `data/` - Generated outputs (gitignored)
+
+Run skills in isolated environments with UV:
+
+```bash
+cd .skills/<skill-name>
+uv run --with <packages> python <script.py>
+```
+
+---
+
 ## ✅ Required before task completion
 
 Before you report a task as done, update source-of-truth records in-repo:
